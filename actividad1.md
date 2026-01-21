@@ -54,6 +54,8 @@ Crea un documento en formato **LibreOffice Writer** (o PDF) donde respondas de f
 * **B.1.** Explica la función del registro **MX**. ¿Qué pasaría si configuramos un servidor de correo pero olvidamos crear este registro en el DNS?
 * **B.2.** ¿Qué es la **Prioridad** en un registro MX (ese número "10" que solemos poner) y para qué sirve tener más de uno?
 
+[Configuración de DNS con Bind9](dns.md)
+
 ---
 
 ## 5. Fase 4: Verificación Final
