@@ -48,7 +48,6 @@ Crea un documento en formato **LibreOffice Writer** (o PDF) donde respondas de f
 ### Sección A: Seguridad de Red
 * **A.1.** Enumera todas las **Reglas de Entrada** que has creado en AWS. Indica: *Puerto | Protocolo (TCP/UDP) | Servicio*.
 * **A.2.** ¿Es necesario modificar las **Reglas de Salida**? ¿Por qué un servidor de correo podría tener problemas si bloqueamos las conexiones de salida hacia el puerto 25?
-* **A.3.** ¿Qué diferencia de seguridad hay entre abrir el puerto **53 UDP** y el **53 TCP**?
 
 ### Sección B: Configuración DNS
 * **B.1.** Explica la función del registro **MX**. ¿Qué pasaría si configuramos un servidor de correo pero olvidamos crear este registro en el DNS?
