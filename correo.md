@@ -88,6 +88,6 @@ Caso: **Ana (ana@empresaA.com)** envía un email a **Luis (luis@empresaB.com)**.
 
 ## 6. Actividades
 
-- [Actividad 1](actividad1.md)
+- [Actividad 1 - Preparando el entorno de trabajo](actividad1.md)
 
 
