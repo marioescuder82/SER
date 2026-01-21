@@ -86,4 +86,8 @@ Caso: **Ana (ana@empresaA.com)** envía un email a **Luis (luis@empresaB.com)**.
 | **POP3** | Acceso | Recepción (Descarga) | Mudanza (lo llevo todo) |
 | **IMAP** | Acceso | Recepción (Sincro) | Gafas de larga distancia |
 
+## 6. Actividades
+
+- [Actividad 1](actividad1.md)
+
 
