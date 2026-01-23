@@ -1,4 +1,4 @@
-# Sesión 1: Despliegue del Servidor de Correo (MTA y MDA)
+# Sesión 2: Despliegue del Servidor de Correo (MTA y MDA)
 
 ## 1. Introducción
 En esta sesión vamos a transformar vuestra instancia de AWS en un nodo de mensajería funcional. Instalaremos **Postfix** como nuestro agente de transferencia de correo (MTA).

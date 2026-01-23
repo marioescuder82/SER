@@ -1,4 +1,4 @@
-# Actividad Práctica: Infraestructura Cloud y DNS para Servicios de Correo
+# Sesión 1: Infraestructura Cloud y DNS para Servicios de Correo
 **Asignatura:** Servicios en Red  
 **Ciclo:** Sistemas Microinformáticos y Redes (SMR)  
 
