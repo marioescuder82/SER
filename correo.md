@@ -90,7 +90,7 @@ Caso: **Ana (ana@empresaA.com)** envía un email a **Luis (luis@empresaB.com)**.
 
 - [Sesión 1 - Preparando el entorno de trabajo](sesion1.md)
 - [Sesión 2 - Instalación de POSTFIX](sesion2.md)
-- [Sesión 3 - Instalación de DOVECOT]
+- [Sesión 3 - Instalación de DOVECOT](sesion3.md)
 - [Sesión 4 - Clientes de correo]
 
 
