@@ -89,6 +89,8 @@ Caso: **Ana (ana@empresaA.com)** envía un email a **Luis (luis@empresaB.com)**.
 ## 6. Actividades
 
 - [Sesión 1 - Preparando el entorno de trabajo](sesion1.md)
-- [Sesión 2 - Instalación de POSTFIX y DOVECOT](sesion2.md)
+- [Sesión 2 - Instalación de POSTFIX](sesion2.md)
+- [Sesión 3 - Instalación de DOVECOT]
+- [Sesión 4 - Clientes de correo]
 
 
