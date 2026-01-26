@@ -101,14 +101,6 @@ Desde el Alumno C, responder al Alumno B conectándose manualmente al puerto 25 
 
 Añade a tu documento de entrega todos los pasos que has seguido para configurar correctamente el servicio de correo así como las pruebas que has realizado para verificar correctamente su funcionamiento.
 
-### Sección A: Seguridad de Red
-* **A.1.** Enumera todas las **Reglas de Entrada** que has creado en AWS. Indica: *Puerto | Protocolo (TCP/UDP) | Servicio*.
-* **A.2.** ¿Es necesario modificar las **Reglas de Salida**? ¿Por qué un servidor de correo podría tener problemas si bloqueamos las conexiones de salida hacia el puerto 25?
-* **A.3.** ¿Es necesario configurar el firewall dentro del Ubuntu Server? ¿Por qué?
-
-### Sección B: Configuración DNS
-* **B.1.** Explica la función del registro **MX**. ¿Qué pasaría si configuramos un servidor de correo pero olvidamos crear este registro en el DNS?
-* **B.2.** ¿Qué es la **Prioridad** en un registro MX (ese número "10" que solemos poner) y para qué sirve tener más de uno?
 
 ---
 
