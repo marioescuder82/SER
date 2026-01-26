@@ -48,19 +48,19 @@ El servidor de correo utiliza usuarios reales del sistema operativo para gestion
 
 ---
 
-# 5. Práctica: Despliegue de Infraestructura de Correo Interconectada
+## 5. Práctica: Despliegue de Infraestructura de Correo Interconectada
 
-## 1. Escenario de Red
+### 1. Escenario de Red
 En esta práctica, el grupo (3 personas) debe simular una red corporativa completa. No trabajaremos con dominios locales aislados, sino con una estructura de **subdominios** dependientes de un **servidor DNS centralizado**.
 
-### Roles del grupo:
+#### Roles del grupo:
 * **Nodo DNS (Alumno A):** Gestiona la resolución de nombres para todo el grupo.
 * **Nodo MTA 1 (Alumno B):** Gestiona el subdominio `profesor.tudominio.com`.
 * **Nodo MTA 2 (Alumno C):** Gestiona el subdominio `alumno.tudominio.com`.
 
 ---
 
-## 2. Fase 1: Infraestructura y Red (AWS)
+### 2. Fase 1: Infraestructura y Red (AWS)
 Antes de configurar los servicios, la red debe permitir el tráfico necesario.
 
 * **Reto 1:** Identificar qué puertos TCP/UDP deben abrirse en los *Security Groups* de AWS para que el DNS y el correo (SMTP) funcionen entre las instancias.
@@ -73,7 +73,7 @@ Antes de configurar los servicios, la red debe permitir el tráfico necesario.
 
 ---
 
-## 3. Fase 2: Configuración del MTA (Postfix)
+### 3. Fase 2: Configuración del MTA (Postfix)
 Cada servidor de correo debe ser capaz de enviar y recibir mensajes de forma autónoma.
 
 * **Configuración:** Instalar y configurar Postfix.
@@ -84,20 +84,20 @@ Cada servidor de correo debe ser capaz de enviar y recibir mensajes de forma aut
 
 ---
 
-## 4. Fase 3: Pruebas de Funcionamiento y Protocolo
+### 4. Fase 3: Pruebas de Funcionamiento y Protocolo
 Una vez los servicios estén en *running*, realizad las siguientes pruebas:
 
-### Prueba A: Envío automatizado
+#### Prueba A: Envío automatizado
 Desde el Alumno B, enviar un correo a un usuario del Alumno C usando el comando `mail`. 
 * *Evidencia:* Localizar el archivo de texto del correo en el sistema de archivos del Alumno C (ruta `/home/...`).
 
-### Prueba B: El protocolo SMTP a mano
+#### Prueba B: El protocolo SMTP a mano
 Desde el Alumno C, responder al Alumno B conectándose manualmente al puerto 25 (usando `telnet` o `nc`).
 * **Reto:** Debes completar el "apretón de manos" SMTP (`HELO`, `MAIL FROM`, `RCPT TO`, `DATA`, etc.) sin errores.
 
 ---
 
-# 6. Fase 4: Documento de Entrega
+## 6. Fase 4: Documento de Entrega
 
 Añade a tu documento de entrega todos los pasos que has seguido para configurar correctamente el servicio de correo así como las pruebas que has realizado para verificar correctamente su funcionamiento.
 
