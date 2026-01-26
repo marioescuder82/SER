@@ -95,11 +95,24 @@ Desde el Alumno B, enviar un correo a un usuario del Alumno C usando el comando 
 Desde el Alumno C, responder al Alumno B conectándose manualmente al puerto 25 (usando `telnet` o `nc`).
 * **Reto:** Debes completar el "apretón de manos" SMTP (`HELO`, `MAIL FROM`, `RCPT TO`, `DATA`, etc.) sin errores.
 
+---
 
+# 6. Fase 4: Documento de Entrega
+
+Añade a tu documento de entrega todos los pasos que has seguido para configurar correctamente el servicio de correo así como las pruebas que has realizado para verificar correctamente su funcionamiento.
+
+### Sección A: Seguridad de Red
+* **A.1.** Enumera todas las **Reglas de Entrada** que has creado en AWS. Indica: *Puerto | Protocolo (TCP/UDP) | Servicio*.
+* **A.2.** ¿Es necesario modificar las **Reglas de Salida**? ¿Por qué un servidor de correo podría tener problemas si bloqueamos las conexiones de salida hacia el puerto 25?
+* **A.3.** ¿Es necesario configurar el firewall dentro del Ubuntu Server? ¿Por qué?
+
+### Sección B: Configuración DNS
+* **B.1.** Explica la función del registro **MX**. ¿Qué pasaría si configuramos un servidor de correo pero olvidamos crear este registro en el DNS?
+* **B.2.** ¿Qué es la **Prioridad** en un registro MX (ese número "10" que solemos poner) y para qué sirve tener más de uno?
 
 ---
 
-## 5. Informe de Errores (Troubleshooting)
+## 7. Informe de Errores (Troubleshooting)
 Durante la práctica, es probable que surjan problemas. Debéis documentar:
 1.  Qué ocurre si el Alumno B tiene su propio nombre en `mydestination` pero intenta enviar a un compañero.
 2.  Qué mensaje aparece en `/var/log/mail.log` cuando el DNS no resuelve el destino.

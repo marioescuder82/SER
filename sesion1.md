@@ -42,7 +42,7 @@ Accede por SSH a tu máquina y realiza la instalación del servicio DNS.
 
 ---
 
-## 4. Fase 3: Documento de Entrega (Cuestionario)
+## 4. Fase 3: Documento de Entrega
 Crea un documento en formato **LibreOffice Writer** (o PDF) donde respondas de forma técnica y razonada a los siguientes puntos:
 
 ### Sección A: Seguridad de Red
