@@ -33,3 +33,6 @@ set sendmail = "/usr/sbin/sendmail"
 set ssl_starttls = no
 set ssl_force_tls = no
 ```
+
+## 2. Cómo Leer Correos (Recepción)
+Como ya hemos configurado la ruta spoolfile hacia tu Maildir, simplemente entra en el programa con el comando ```mutt```
