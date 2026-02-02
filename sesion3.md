@@ -24,7 +24,25 @@ Instalad el paquete `dovecot-imapd` y `dovecot-pop3d` en los servidores B y C.
     * *Investigación:* Buscad el archivo `10-mail.conf`. ¿Cómo se le indica a Dovecot que use el formato `Maildir` y en qué ruta del usuario debe buscar?
 3.  **Autenticación:** Por defecto, Dovecot puede exigir SSL/TLS. Para esta práctica, buscad cómo permitir la **autenticación en texto plano** y cómo desactivar la obligación de usar SSL en el archivo `10-auth.conf` y `10-ssl.conf`.
 
+Ayuda
+```bash
+/etc/dovecot/conf.d/10-mail.conf
 
+mail_location = maildir:~/Maildir
+
+
+/etc/dovecot/conf.d/10-auth.conf
+
+disable_plaintext_auth = no
+
+
+/etc/dovecot/conf.d/10-ssl.conf
+
+ssl = no
+
+
+sudo systemctl restart dovecot
+```
 
 ---
 
