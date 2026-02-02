@@ -18,18 +18,14 @@ nano ~/.muttrc
 Pegar la siguiente configuración básica: (Sustituye los datos por los tuyos)
 
 ```
-# Configuración de identidad
-set from = "usuario@tudominio.com"
-set realname = "Tu Nombre Real"
+set from = "profesor1@profesor.tudominio.com"
+set realname = "Profesor 1"
 
-# Ruta del buzón local (Dovecot)
-set folder = "~/Maildir"
-set spoolfile = "~/Maildir"
+set folder = "imap://profesor1@172.31.196.111/"
+set spoolfile = "imap://profesor1@172.31.196.111/INBOX"
 
-# Forzar envío local vía Postfix
 set sendmail = "/usr/sbin/sendmail"
 
-# Desactivar exigencia de TLS para pruebas en laboratorio
 set ssl_starttls = no
 set ssl_force_tls = no
 ```
